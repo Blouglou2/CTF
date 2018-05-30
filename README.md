@@ -22,4 +22,5 @@ fg
 ```
 ## Steganographie
 Tester zsteg
+
 Cheat sheet : https://pequalsnp-team.github.io/cheatsheet/steganography-101
