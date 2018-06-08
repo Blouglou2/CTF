@@ -20,7 +20,16 @@ CTRL+Z
 stty raw -echo
 fg
 ```
+### Tools pour palier le manque d'inspiration 
+Checker les différents tools : https://github.com/zardus/ctf-tools
+
 ## Steganographie
 Tester zsteg
 
 Cheat sheet : https://pequalsnp-team.github.io/cheatsheet/steganography-101
+
+
+## Privesc
+
+Liste d'exploit : https://github.com/FuzzySecurity/Unix-PrivEsc
+Privesc checker : https://github.com/pentestmonkey/unix-privesc-check (ESSAYER LES DEUX BRANCHES)
