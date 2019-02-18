@@ -19,6 +19,11 @@ python -c "import pty; pty.spawn('/bin/bash')"
 CTRL+Z
 stty raw -echo
 fg
+
+#### Dans le webshell ###
+export SHELL=bash
+export TERM=xterm256-color
+stty rows 38 columns 116
 ```
 ### Tools pour palier le manque d'inspiration 
 Checker les différents tools : https://github.com/zardus/ctf-tools
