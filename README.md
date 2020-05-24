@@ -16,6 +16,7 @@ Améliorer le shell en pty et avoir l'autocomplétion:
 ```
 python -c "import pty; pty.spawn('/bin/bash')"
 CTRL+Z
+stty -a |cut -d';' -f2-3 | head -n1
 stty raw -echo
 fg
 
@@ -36,9 +37,3 @@ Checker les différents tools : https://github.com/zardus/ctf-tools
 Tester zsteg
 
 Cheat sheet : https://pequalsnp-team.github.io/cheatsheet/steganography-101
-
-
-## Privesc
-
-Liste d'exploit : https://github.com/FuzzySecurity/Unix-PrivEsc
-Privesc checker : https://github.com/pentestmonkey/unix-privesc-check (ESSAYER LES DEUX BRANCHES)
